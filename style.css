@@ -1,0 +1,104 @@
+ html {
+        height: 100%;
+    }
+    
+    body {
+        background-color: #2f3035;
+        text-align: center;
+        background-image: url(food.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1024px;
+    }
+    
+    header {
+        height: 118px;
+    }
+    
+    nav {
+        background-color: rgba(0, 0, 0, 0.342);
+    }
+    
+    main {
+        height: 400px;
+        padding-top: 80px;
+        padding-left: 240px;
+        padding-right: 240px;
+    }
+    
+    footer {
+        background-color: rgba(0, 0, 0, 0.815);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    h1 {
+        font-size: 84px;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    p {
+        font-size: 18px;
+        color: beige;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+    
+    nav a {
+        text-decoration: none;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    
+    footer p {
+        font-size: 20px;
+        text-align: center;
+        color: rgb(198, 198, 198)
+    }
+    
+    .maps {
+        padding-bottom: 100px;
+    }
+    
+    h3 {
+        text-align: center;
+        padding: 20px;
+        color: green;
+        font-size: 80px;
+    }
+    
+    .order {
+        text-align: justify;
+        background-color: rgba(0, 255, 0, 0.575);
+        display: grid;
+        place-items: center;
+        display: inline block;
+    }
+    
+    .nav2 {
+        display: grid;
+        place-items: center;
+    }
+    
+    .nav2 ul {
+        list-style-type: none;
+    }
+    
+    nav2 ul a {
+        display: inline-block;
+        padding: 20px;
+        transition: 0.2s;
+        color: #000;
+        text-decoration: none;
+    }
